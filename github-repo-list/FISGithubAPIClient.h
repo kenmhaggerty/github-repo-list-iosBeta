@@ -9,6 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface FISGithubAPIClient : NSObject
-
-
++ (void)getRepositoriesWithCompletion:(void (^)(NSArray <NSDictionary *> *repositories))completionBlock;
 @end

@@ -16,6 +16,7 @@
 		313A2C3D1A0815B500F1073A /* FISReposTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A2C3A1A0815B500F1073A /* FISReposTableViewController.m */; };
 		313A2C3E1A0815B500F1073A /* FISGithubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A2C3C1A0815B500F1073A /* FISGithubRepository.m */; };
 		313A2C401A08161900F1073A /* repositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 313A2C3F1A08161900F1073A /* repositories.json */; };
+		7D136A231C7A180A00279D15 /* FISPrivateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D136A221C7A180A00279D15 /* FISPrivateInfo.m */; };
 		A3723A903BC0A92C119E4BB1 /* libPods-github-repo-list.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E094F4B27652BCFC408E40 /* libPods-github-repo-list.a */; };
 		E270C69A1B4C56E900F5AA12 /* FISGithubAPIClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A2C411A08163500F1073A /* FISGithubAPIClientSpec.m */; };
 		E270C69B1B4C56EC00F5AA12 /* FISGithubRepositorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A2C421A08163500F1073A /* FISGithubRepositorySpec.m */; };
@@ -59,6 +60,8 @@
 		313A2C441A08163500F1073A /* FISReposTableViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISReposTableViewControllerSpec.m; sourceTree = "<group>"; };
 		313A2C521A081CDF00F1073A /* repositories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repositories.json; sourceTree = "<group>"; };
 		3A3B4DB99212BB2830FEE5DE /* Pods-github-repo-list.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github-repo-list.release.xcconfig"; path = "Pods/Target Support Files/Pods-github-repo-list/Pods-github-repo-list.release.xcconfig"; sourceTree = "<group>"; };
+		7D136A221C7A180A00279D15 /* FISPrivateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrivateInfo.m; sourceTree = "<group>"; };
+		7D136A241C7A185D00279D15 /* FISPrivateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrivateInfo.h; sourceTree = "<group>"; };
 		8E8AEF2B535A38CE88DE47D1 /* libPods-github-repo-listTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-github-repo-listTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086FD10914BBE0F46951B02 /* Pods-github-repo-listTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github-repo-listTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-github-repo-listTests/Pods-github-repo-listTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E270C68F1B4C56CF00F5AA12 /* github-repo-listTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-repo-listTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +125,8 @@
 				E2F307181B4B063200430A97 /* FISGithubAPIClient.m */,
 				E2F3071A1B4B063C00430A97 /* FISReposDataStore.h */,
 				E2F3071B1B4B063C00430A97 /* FISReposDataStore.m */,
+				7D136A241C7A185D00279D15 /* FISPrivateInfo.h */,
+				7D136A221C7A180A00279D15 /* FISPrivateInfo.m */,
 				313A2C1D1A08157300F1073A /* Main.storyboard */,
 				313A2C201A08157300F1073A /* Images.xcassets */,
 				313A2C221A08157300F1073A /* LaunchScreen.xib */,
@@ -384,6 +389,7 @@
 			files = (
 				313A2C191A08157300F1073A /* AppDelegate.m in Sources */,
 				313A2C3D1A0815B500F1073A /* FISReposTableViewController.m in Sources */,
+				7D136A231C7A180A00279D15 /* FISPrivateInfo.m in Sources */,
 				313A2C3E1A0815B500F1073A /* FISGithubRepository.m in Sources */,
 				E2F307191B4B063200430A97 /* FISGithubAPIClient.m in Sources */,
 				E2F3071C1B4B063C00430A97 /* FISReposDataStore.m in Sources */,

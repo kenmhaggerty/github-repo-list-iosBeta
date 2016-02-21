@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface FISGithubRepository : NSObject
-
+@property (nonatomic, strong) NSString *fullName;
+@property (nonatomic, strong) NSURL *htmlURL;
+@property (nonatomic, strong) NSString *repositoryID;
++ (instancetype)repoFromDictionary:(NSDictionary *)dictionary;
+- (BOOL)isEqual:(id)object;
 @end

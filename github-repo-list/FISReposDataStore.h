@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FISGithubRepository.h"
 
 @interface FISReposDataStore : NSObject
-
-@property (strong, nonatomic) NSMutableArray *repositories;
-
+@property (strong, nonatomic) NSMutableArray <FISGithubRepository *> *repositories;
++ (instancetype)sharedDataStore;
+- (void)getRepositoriesWithCompletion:(void (^)(BOOL success))completionBlock;
 @end
